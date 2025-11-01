@@ -9,17 +9,17 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-light">
+<nav class="navbar navbar-expand-sm bg-primary text-light">
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">เพิ่มสมาชิก</a>
+        <a class="nav-link" href="#" style="color: white">เพิ่มสมาชิก</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">เพิ่มข้อมูลหน่วยที่ใช้</a>
+        <a class="nav-link" href="#" style="color: white">เพิ่มข้อมูลหน่วยที่ใช้</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ออกจากระบบ</a>
+        <a class="nav-link" href="#" style="color: white">ออกจากระบบ</a>
       </li>
     </ul>
   </div>
