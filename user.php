@@ -21,8 +21,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="#">หน้าหลัก</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">ผู้ใช้น้ำ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./">หน้าหลัก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="user.php">ผู้ใช้น้ำ</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">บันทึกการใช้น้ำ</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">รายงาน</a></li>
                 </ul>
