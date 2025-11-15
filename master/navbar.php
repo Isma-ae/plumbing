@@ -10,22 +10,39 @@
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="./">หน้าหลัก</a>
+                    <a class="nav-link <?php
+                        if ($page == 'home') {
+                            echo 'active';
+                        } else {
+                            echo '';
+                        }
+                    ?>" href="./">หน้าหลัก</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="user.php">ผู้ใช้น้ำ</a>
+                    <a class="nav-link <?php
+                        if($page == 'user'){
+                            echo 'active';
+                        } else {
+                            echo '';
+                        }
+                    ?>" href="?page=user">ผู้ใช้น้ำ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="bill.php">บันทึกการใช้น้ำ</a>
+                    <a class="nav-link <?php
+                        if($page == 'bill') {
+                            echo 'active';
+                        } else {
+                            echo '';
+                        }
+                    ?>" href="?page=bill">บันทึกการใช้น้ำ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="report.php">รายงาน</a>
+                    <a class="nav-link" href="#">รายงาน</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ผู้ดูแลระบบ</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-primary" type="button">Search</button>
-            </form>
         </div>
     </div>
 </nav>
