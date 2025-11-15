@@ -13,7 +13,7 @@
     ?>
     <div class="container" style="margin-top:20px;">
         <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#addUserModal"> <i
-                class="fas fa-plus"></i> เพิ่มผู้ใช้น้ำ </button><!-- ปุ่มเพิ่ม -->
+                class="fas fa-plus"></i> บันทึกการใช้น้ำ </button><!-- ปุ่มเพิ่ม -->
 
         <!-- ตาราง -->
         <table class="table table-striped table-hover">
