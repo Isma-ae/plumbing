@@ -9,6 +9,25 @@
     --dark-color: #1a1a2e;
     --light-color: #f8f9fa;
 }
+.header-section {
+    background: linear-gradient(135deg, var(--primary-color), #3a56d4);
+    color: white;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(67, 97, 238, 0.15);
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.page-subtitle {
+    font-weight: 300;
+    opacity: 0.9;
+}
 .card-custom {
     border: none;
     border-radius: 15px;

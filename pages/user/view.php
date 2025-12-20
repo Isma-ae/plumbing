@@ -1,5 +1,9 @@
 <script src="pages/user/view.js"></script>
 <link rel="stylesheet" href="pages/user/view.css">
+
+<div class="alert alert-success d-flex align-items-center" role="alert">
+    <div>จัดการข้อมูลสมาชิกในระบบ</div>
+</div>
 <div class="container">
         <!-- การ์ดสำหรับตารางผู้ใช้ -->
     <div class="card card-custom mb-4">
