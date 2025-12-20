@@ -65,7 +65,7 @@ $(document).ready(function () {
                 $("#admin_password").val("");
                 $("#admin_phone").val(res.data.admin_phone);
 
-                $("#userModal").modal("show");
+                $("#adminModal").modal("show");
             }
         });
     });
