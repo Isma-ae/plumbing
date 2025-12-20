@@ -21,6 +21,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0)">รายงาน</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($page == 'admin') ? 'active' : '';?>" href="?page=admin">ผู้ดูแลระบบ</a>
+                </li>
             </ul>
             <!-- <form class="d-flex">
                 <input class="form-control me-2" type="text" placeholder="Search">
