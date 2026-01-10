@@ -1,3 +1,23 @@
+<script>
+    $(document).ready(function () {
+        $('#logout').click(function (e) { 
+            e.preventDefault();
+            $.ajax({
+                type: "post",
+                url: "./login/action.php",
+                data: {
+                    fn: "logout"
+                },
+                dataType: "json",
+                success: function (res) {
+                    if (res.status === "success") {
+                        location.reload();
+                    }
+                }
+            });
+        });
+    });
+</script>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="javascript:void(0)">
@@ -23,6 +43,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($page == 'admin') ? 'active' : '';?>" href="?page=admin">ผู้ดูแลระบบ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="logout" href="#">ออกจากระบบ</a>
                 </li>
             </ul>
             <!-- <form class="d-flex">

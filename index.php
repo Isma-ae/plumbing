@@ -1,4 +1,9 @@
 <?php
+    session_start();
+    if (!isset($_SESSION["admin_id"])) {
+        header("Location:./login");
+        exit();
+    }
     $page = (!isset($_GET["page"])) ? 'home' : $_GET["page"] ;
 ?>
 <!DOCTYPE html>

@@ -50,7 +50,7 @@
 
         $stmt = $conn->prepare($sql);
 
-        $password = password_hash($_POST['admin_password'], PASSWORD_DEFAULT);
+        $password = md5($_POST['admin_password']);
 
         $stmt->bind_param(
             "ssss",
