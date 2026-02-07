@@ -62,8 +62,8 @@ $(document).ready(function () {
                 $("#admin_id").val(res.data.admin_id);//
                 $("#admin_name").val(res.data.admin_name);//
                 $("#admin_username").val(res.data.admin_username);//
-                $("#admin_password").val("");
-                $("#admin_phone").val(res.data.admin_phone);
+                $("#admin_password").val("");//
+                $("#admin_phone").val(res.data.admin_phone);//
 
                 $("#adminModal").modal("show");
             }

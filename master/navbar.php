@@ -36,7 +36,7 @@
                     <a class="nav-link <?php echo ($page == 'user') ? 'active' : '';?>" href="?page=user">ผู้ใช้น้ำ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">บันทึกการใช้น้ำ</a>
+                    <a class="nav-link <?php echo ($page == 'note') ? 'active' : '';?>" href="?page=note">บันทึกการใช้น้ำ</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0)">รายงาน</a>
